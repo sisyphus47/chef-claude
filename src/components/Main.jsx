@@ -1,22 +1,23 @@
 import React from "react";
-import { useState } from "react";
+import IngredientsList from "./IngredientsList";
+import ClaudeRecipe from "./ClaudeRecipe";
 
-const Main = () => {
-  const [ingredients, setIngredients] = useState([]);
-  const ingredientsListItems = ingredients.map((ingredient) => (
-    <li key={ingredient}>{ingredient}</li>
-  ));
+export default function Main() {
+  const [ingredients, setIngredients] = React.useState([]);
+  const [recipeShown, setRecipeShown] = React.useState(false);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.currentTarget);
+  function toggleRecipeShown() {
+    setRecipeShown((prevShown) => !prevShown);
+  }
+
+  function addIngredient(formData) {
     const newIngredient = formData.get("ingredient");
     setIngredients((prevIngredients) => [...prevIngredients, newIngredient]);
-  };
+  }
 
   return (
     <main>
-      <form onSubmit={handleSubmit} className="add-ingredient-form">
+      <form action={addIngredient} className="add-ingredient-form">
         <input
           type="text"
           placeholder="e.g. oregano"
@@ -24,10 +25,16 @@ const Main = () => {
           name="ingredient"
         />
         <button>Add ingredient</button>
-        <ul>{ingredientsListItems}</ul>
       </form>
+
+      {ingredients.length > 0 && (
+        <IngredientsList
+          ingredients={ingredients}
+          toggleRecipeShown={toggleRecipeShown}
+        />
+      )}
+
+      {recipeShown && <ClaudeRecipe />}
     </main>
   );
-};
-
-export default Main;
+}
