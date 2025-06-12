@@ -4,7 +4,7 @@
 
 ## 🚀 Live Application
 
-🔗 [Try Chef Claude Now](https://sisyphus47.github.io/chef-claude/)
+🔗 [Try Chef Claude Now](https://chef-claude-omega-blue.vercel.app/)
 
 ---
 
@@ -31,7 +31,8 @@
 
 - Frontend: React / HTML / CSS / JS
 - AI: HuggingFace API
-- Deployment: Github Pages
+- Deployment: Vercel
+
 
 ---
 
