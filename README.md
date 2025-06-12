@@ -1,12 +1,51 @@
-# React + Vite
+# 👨‍🍳 Chef Claude
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Chef Claude** is your AI-powered kitchen companion! Simply provide a list of ingredients, and Chef Claude will whip up a delicious recipe for you. Whether you’re trying to cook with what you have or just seeking inspiration, Chef Claude helps make every meal an adventure.
 
-Currently, two official plugins are available:
+## 🚀 Live Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Try Chef Claude Now](https://sisyphus47.github.io/chef-claude/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🍽️ Features
+
+- 🧠 AI-generated recipes based on your ingredients
+- ✨ Minimalist and user-friendly interface
+- 🌐 Web-based and mobile responsive
+- 🥗 Suggests creative dishes with detailed cooking steps
+- 📝 No sign-up required
+
+---
+
+## 🧪 How It Works
+
+1. Open the app
+2. Enter the list of ingredients you have (e.g., `tomato, pasta, garlic`)
+3. Hit **"Get Recipe"**
+4. Chef Claude serves you a personalized recipe!
+
+---
+
+## 🛠️ Tech Stack
+
+- Frontend: React / HTML / CSS / JS
+- AI: HuggingFace API
+- Deployment: Github Pages
+
+---
+
+## 📸 Screenshots
+
+_(Add screenshots of your app here if available)_
+
+---
+
+## 📦 Installation (for local development)
+
+```bash
+git clone https://github.com/your-username/chef-claude.git
+cd chef-claude
+npm install
+npm start
+```
