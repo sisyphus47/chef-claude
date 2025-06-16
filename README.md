@@ -35,15 +35,6 @@
 
 
 ---
-
-## 📸 Screenshots
-
-_(Add screenshots of your app here if available)_
-
----
-
-## 📦 Installation (for local development)
-
 ```bash
 git clone https://github.com/your-username/chef-claude.git
 cd chef-claude
