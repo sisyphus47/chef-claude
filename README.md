@@ -33,11 +33,4 @@
 - AI: HuggingFace API
 - Deployment: Vercel
 
-
 ---
-```bash
-git clone https://github.com/your-username/chef-claude.git
-cd chef-claude
-npm install
-npm start
-```
