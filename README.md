@@ -2,6 +2,7 @@
 
 **Chef Claude** is your AI-powered kitchen companion! Simply provide a list of ingredients, and Chef Claude will whip up a delicious recipe for you. Whether you’re trying to cook with what you have or just seeking inspiration, Chef Claude helps make every meal an adventure.
 
+
 ## 🚀 Live Application
 
 🔗 [Try Chef Claude Now](https://chef-claude-omega-blue.vercel.app/)
